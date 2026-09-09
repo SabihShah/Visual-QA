@@ -1,0 +1,13 @@
+torch>=2.1
+torchvision
+transformers>=4.40
+open_clip_torch
+datasets
+pillow
+gradio
+pycocoevalcap
+tqdm
+wandb
+qwen-vl-utils
+accelerate
+bitsandbytes>=0.46.1

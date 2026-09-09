@@ -1,0 +1,18 @@
+vision_encoder: openai/clip-vit-base-patch32
+text_decoder: gpt2
+projection_dim: 768
+max_caption_len: 40
+max_question_len: 20
+max_answer_len: 10
+
+train:
+  batch_size: 16
+  lr: 5e-5
+  epochs: 5
+  freeze_vision: true
+  task: captioning   # captioning | vqa | multitask
+
+data:
+  captioning_dataset: flickr8k
+  vqa_dataset: vqav2_subset
+  data_dir: ./data
