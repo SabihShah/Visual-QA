@@ -155,14 +155,6 @@ Swap `demo/app.py` to load your custom checkpoint via `VisualCaptioner` (from `s
 - Gradio (demo UI)
 - pycocoevalcap (BLEU, CIDEr)
 
-## Status
-
-- [x] Pretrained inference pipeline (Qwen2.5-VL, captioning + VQA)
-- [x] Gradio demo
-- [x] Custom training pipeline scaffolded (model, dataset, train, eval)
-- [ ] Custom model trained/evaluated
-- [ ] Attention map visualization (stretch goal)
-
 ## Tags
 
 `computer-vision` `vision-language-model` `image-captioning` `visual-question-answering` `qwen2.5-vl` `gradio` `pytorch` `transformers`
