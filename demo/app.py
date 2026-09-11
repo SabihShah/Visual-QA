@@ -18,7 +18,7 @@ def answer_question(image, question):
 
 
 with gr.Blocks() as demo:
-    gr.Markdown("# Visual QA & Captioning (Pretrained BLIP)")
+    gr.Markdown("# Visual QA & Captioning")
     with gr.Row():
         image_input = gr.Image(type="pil")
         with gr.Column():
